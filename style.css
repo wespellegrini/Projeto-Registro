@@ -1,0 +1,119 @@
+body {
+	font-family: 'Bradley_Hand', cursive;
+}
+
+header {
+	background: #666666;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #999999;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #6699FF;
+	text-decoration: underline;
+}
+
+.registro {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.registro li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+.registro li:hover {
+	border-color: #6699FF;
+}
+
+.registro li:active {
+	border-color: #088C19;	
+}
+
+.registro li:hover h2 {
+	font-size: 30px;
+}
+
+.registro h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+main {
+	
+}
+
+form {
+	margin: 0 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 50px;
+	width: 50%;
+}
+
+.input-secundario {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 30%;
+}
+
+.cadastrar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.cadastrar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Assessoria - Registros de Imóveis</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="registro">
+				<h1><img src="logo_principal.png" alt="Logo da Assessoria"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="registro.html">Registros</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="cliente">Cliente</label>
+				<input type="text" id="cliente" class="input-padrao" required>
+
+				<label for="outorgante">Outorgante</label>
+				<input type="text" id="outorgante" class="input-padrao" required>
+
+				<label for="outorgado">Outorgado</label>
+				<input type="text" id="outorgado" class="input-padrao" required>
+
+				<label for="escrevente">Escrevente Responsável</label>
+				<input type="text" id="escrevente" class="input-padrao" required>
+
+				<label for="cartorioRegistro">Cartório de Registro de Imóveis</label>
+				<input type="text" id="cartorioRegistro" class="input-padrao" required>
+
+				<label for="protocoloRegistro">Protocolo do Registro ONR</label>
+				<input type="text" id="protocoloRegistro" class="input-secundario" required placeholder="ACXXXXXXXXX">
+
+				<label for="dataEntrada">Data de Entrada</label>
+				<input type="date" id="dataEntrada" class="input-secundario" required required placeholder="XX/XX/XX">
+
+				<label for="prenotacao">Prenotação</label>
+				<input type="number" id="prenotacao" class="input-secundario" required>
+
+				<label for="senha">Senha</label>
+				<input type="text" id="senha" class="input-secundario" required>
+
+				<label for="dataVencimento">Data de Vencimento da Prenotação</label>
+				<input type="date" id="dataVencimento" class="input-secundario" required placeholder="XX/XX/XX">
+
+				<fieldset>
+					<legend>Tipo de Protocolo</legend>
+					<label for="radio-fisico"><input type="radio" name="tipo" value="fisico" id="radio-fisco"> Físico</label>
+					
+					<label for="radio-online"><input type="radio" name="tipo" value="online" id="radio-online"> online</label>
+					
+				</fieldset>
+
+				<input type="submit" value="Cadastrar" class="cadastrar">
+			</form>
+
+	</body>
+
+</html>
