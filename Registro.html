@@ -23,36 +23,37 @@
 			</div>
 		</header>
 		<main>
-			<form>
+			<form action="https://api.sheetmonkey.io/form/tYYQ7KrzbM57DoqrXxDsto" method="post">
+				
 				<label for="cliente">Cliente</label>
-				<input type="text" id="cliente" class="input-padrao" required>
+				<input type="text" id="cliente" name="Cliente" class="input-padrao" required>
 
 				<label for="outorgante">Outorgante</label>
-				<input type="text" id="outorgante" class="input-padrao" required>
+				<input type="text" id="outorgante" name="Outorgante" class="input-padrao" required>
 
 				<label for="outorgado">Outorgado</label>
-				<input type="text" id="outorgado" class="input-padrao" required>
+				<input type="text" id="outorgado" name= "Outorgado" class="input-padrao" required>
 
 				<label for="escrevente">Escrevente Responsável</label>
-				<input type="text" id="escrevente" class="input-padrao" required>
+				<input type="text" id="escrevente" name= "Escrevente Responsável" class="input-padrao" required>
 
 				<label for="cartorioRegistro">Cartório de Registro de Imóveis</label>
-				<input type="text" id="cartorioRegistro" class="input-padrao" required>
+				<input type="text" id="cartorioRegistro" name= "Registro de Imóveis" class="input-padrao" required>
 
 				<label for="protocoloRegistro">Protocolo do Registro ONR</label>
-				<input type="text" id="protocoloRegistro" class="input-secundario" required placeholder="ACXXXXXXXXX">
+				<input type="text" id="protocoloRegistro" name= "Protocolo RI" class="input-secundario" required placeholder="ACXXXXXXXXX">
 
 				<label for="dataEntrada">Data de Entrada</label>
-				<input type="date" id="dataEntrada" class="input-secundario" required required placeholder="XX/XX/XX">
+				<input type="date" id="dataEntrada" name= "Data de Entrada" class="input-secundario" required required placeholder="XX/XX/XX">
 
 				<label for="prenotacao">Prenotação</label>
-				<input type="number" id="prenotacao" class="input-secundario" required>
+				<input type="number" id="prenotacao" name= "Prenotação" class="input-secundario">
 
 				<label for="senha">Senha</label>
-				<input type="text" id="senha" class="input-secundario" required>
+				<input type="text" id="senha" name= "Senha" class="input-secundario">
 
 				<label for="dataVencimento">Data de Vencimento da Prenotação</label>
-				<input type="date" id="dataVencimento" class="input-secundario" required placeholder="XX/XX/XX">
+				<input type="date" id="dataVencimento" name= "Vencimento" class="input-secundario" placeholder="XX/XX/XX">
 
 				<fieldset>
 					<legend>Tipo de Protocolo</legend>
@@ -61,7 +62,7 @@
 					<label for="radio-online"><input type="radio" name="tipo" value="online" id="radio-online"> online</label>
 					
 				</fieldset>
-
+				
 				<input type="submit" value="Cadastrar" class="cadastrar">
 			</form>
 		</main>
